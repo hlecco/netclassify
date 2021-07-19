@@ -40,6 +40,8 @@ class BaseFeature(ABC):
             Feaure value
 
         """
+        # verbose - debug
+        # print(f'Calculating {self.name}...')
         try:
             feature = self.run(graph)
             if np.isnan(feature):

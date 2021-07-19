@@ -6,3 +6,6 @@ from .degree_centrality_corr import DegreeCentralityCorrelation
 from .closeness_centrality import ClosenessCentrality
 from .betweenness_centrality import BetweennessCentrality
 from .modularity import Modularity
+from .transitivity import Transitivity
+from .assortativity import Assortativity
+from .efficiency import Efficiency

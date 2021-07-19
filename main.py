@@ -15,7 +15,7 @@ if __name__ == '__main__':
     ]
 
     cls = ModelClassifier()
-    cls.train(1000, N_min=50, N_max=1000)
+    cls.train(200, N_min=50, N_max=1000)
 
     for graph in graphs_to_test:
         G = CustomGraph(graph)

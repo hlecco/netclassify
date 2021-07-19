@@ -9,13 +9,16 @@ from graph_models import features
 class BaseGraph(ABC):
     available_features = [
         features.ShannonEntropy,
-        features.ClusteringCoefficient,
+        #features.ClusteringCoefficient,
         features.SecondMoment,
         features.MeanDegree,
-        features.DegreeCentralityCorrelation,
+        #features.DegreeCentralityCorrelation,
         features.ClosenessCentrality,
-        features.BetweennessCentrality,
-        features.Modularity
+        #features.BetweennessCentrality,
+        features.Modularity,
+        features.Transitivity,
+        features.Assortativity,
+        #features.Efficiency,
     ]
 
     """Abstraction layer for networkx graphs"""

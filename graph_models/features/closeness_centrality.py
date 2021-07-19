@@ -4,7 +4,7 @@ import networkx as nx
 from graph_models.features.base_feature import BaseFeature
 
 class ClosenessCentrality(BaseFeature):
-    name = "Mean betweenness centrality"
+    name = "Mean closeness centrality"
 
     @staticmethod
     def run(G):
